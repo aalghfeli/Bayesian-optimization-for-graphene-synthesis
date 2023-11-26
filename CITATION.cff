@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Alghfeli"
+  given-names: "Abdalla"
+  orcid: "https://orcid.org/0000-0003-1711-9545"
+- family-names: "Fisher"
+  given-names: "Timothy S."
+  orcid: "https://orcid.org/0000-0002-8909-313X"
+title: "Sequential Bayesian-optimized graphene synthesis by direct solar-thermal chemical vapor deposition"
+version: 0.1.0
+doi: 10.5281/zenodo.10206976
+date-released: 2023-11-25
+url: "https://github.com/aalghfeli/Bayesian-optimization-for-graphene-synthesis/"
