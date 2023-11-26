@@ -7,7 +7,7 @@ authors:
 - family-names: "Fisher"
   given-names: "Timothy S."
   orcid: "https://orcid.org/0000-0002-8909-313X"
-title: "Bayesian optimization for graphene synthesis algorithm"
+title: "Bayesian optimization algorithm for graphene synthesis"
 version: 0.1.0
 doi: 10.5281/zenodo.10206976
 date-released: 2023-11-25
