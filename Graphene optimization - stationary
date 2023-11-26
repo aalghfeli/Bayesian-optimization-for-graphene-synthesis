@@ -1,0 +1,19 @@
+digraph "Graphene optimization - stationary" {
+	"Gas ratio (R)"
+	"Pressure (Pr)"
+	"Temperature (T)"
+	"Time (t)"
+	"Solar simulator power supply current (I)"
+	"Power (P)"
+	"I_D/I_G" [label=<I<sub>D</sub>/I<sub>G</sub>>]
+	"Raman I_D/I_G" [label=<(I<sub>D</sub>/I<sub>G</sub>)<sub>m</sub>>]
+	"Solar simulator power supply current (I)" -> "Power (P)"
+	"Power (P)" -> "Temperature (T)"
+	"Pressure (Pr)" -> "Temperature (T)"
+	"Gas ratio (R)" -> "Temperature (T)"
+	"Gas ratio (R)" -> "I_D/I_G"
+	"Pressure (Pr)" -> "I_D/I_G"
+	"Temperature (T)" -> "I_D/I_G"
+	"Time (t)" -> "I_D/I_G"
+	"I_D/I_G" -> "Raman I_D/I_G"
+}
